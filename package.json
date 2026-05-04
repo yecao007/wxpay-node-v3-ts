@@ -1,6 +1,6 @@
 {
-  "name": "wechatpay-node-v3-new",
-  "version": "4.0.3",
+  "name": "wxpay-node-v3",
+  "version": "4.0.5",
   "description": "微信支付文档v3",
   "keywords": [
     "node",
@@ -17,7 +17,7 @@
     "url": "git+https://github.com/bobby169/wechatpay-node-v3-ts.git"
   },
   "license": "MIT",
-  "author": "klover",
+  "author": "yc",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -26,7 +26,7 @@
   "scripts": {
     "build": "rm -rf ./dist && tsc",
     "release": "npm publish --registry=https://registry.npmjs.org/",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ts-node test/partner.test.ts"
   },
   "dependencies": {
     "@fidm/x509": "1.2.1",

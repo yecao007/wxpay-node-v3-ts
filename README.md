@@ -179,6 +179,8 @@ pay.createHttp(...);
 |v2.2.0|修复回调解密报Unsupported state or unable to authenticate data |
 |v2.2.1|上传图片 |
 |v3.0.0|增家商家转账用户确认模式
+|v4.0.4|修复transfer_cancel接口参数错误,导致验签失败
+|v4.0.5|x
 
 ## 文档
 [v2支付文档](https://pay.weixin.qq.com/wiki/doc/api/index.html)
